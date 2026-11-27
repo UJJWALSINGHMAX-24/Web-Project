@@ -36,3 +36,35 @@ ul li a:hover {
   background-color: aliceblue;
   color: black;
 }
+.card {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255) ;
+  /* Subtle aur clean shadow */
+}
+
+.img {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  
+}
+
+.img img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.txt {
+  padding: 13px;
+  border-radius: 13px 13px 0px 0px;
+  background-color: bisque;
+  .card {
+  box-shadow: 0 -8px 14px -4px rgba(0, 0, 0, 0.12);
+}
+  
+}
